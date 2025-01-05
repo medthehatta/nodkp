@@ -67,7 +67,7 @@ function start_raid(message, database) {
         setTimeout(() => {
           message.channel.send(response.raidReady(discord, message));
           award(message, database, 1);
-        }, (15*60000));
+        }, (30*1000));
       }
     }
   });
